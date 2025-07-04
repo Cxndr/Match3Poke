@@ -3,7 +3,7 @@ var pos_value;
 for (var yy = 0; yy < ds_grid_height(game_grid); yy++) {
   for (var xx = 0; xx < ds_grid_width(game_grid); xx++) {
     
-    pos_value = ds_grid_get(game_grid,xx,yy);
+    pos_value = ds_grid_get(game_grid,xx,yy).type;
     var padding_x = xx * cell_padding;
     var padding_y = yy * cell_padding;
     

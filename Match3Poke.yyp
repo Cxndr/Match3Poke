@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +36,7 @@
   "name":"Match3Poke",
   "resources":[
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},},
+    {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_cell_types_all","path":"sprites/spr_cell_types_all/spr_cell_types_all.yy",},},
     {"id":{"name":"spr_cell_types","path":"sprites/spr_cell_types/spr_cell_types.yy",},},
